@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0E893EC1B60A44800559038 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E893EB1B60A44800559038 /* main.m */; };
+		A0E893EF1B60A44800559038 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E893EE1B60A44800559038 /* AppDelegate.m */; };
+		A0E893F21B60A44800559038 /* IcsParser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0E893F01B60A44800559038 /* IcsParser.xcdatamodeld */; };
+		A0E893F51B60A44800559038 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E893F41B60A44800559038 /* ViewController.m */; };
+		A0E893F81B60A44800559038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E893F61B60A44800559038 /* Main.storyboard */; };
+		A0E893FA1B60A44800559038 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0E893F91B60A44800559038 /* Images.xcassets */; };
+		A0E893FD1B60A44800559038 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0E893FB1B60A44800559038 /* LaunchScreen.xib */; };
+		A0E894091B60A44800559038 /* IcsParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E894081B60A44800559038 /* IcsParserTests.m */; };
+		A0E894201B60A52200559038 /* MSCalendarAlarm.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E894161B60A52200559038 /* MSCalendarAlarm.m */; };
+		A0E894211B60A52200559038 /* MSCalendarEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E894181B60A52200559038 /* MSCalendarEvent.m */; };
+		A0E894221B60A52200559038 /* MSCalendarICSParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E8941A1B60A52200559038 /* MSCalendarICSParser.m */; };
+		A0E894231B60A52200559038 /* MSCalendarUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E8941C1B60A52200559038 /* MSCalendarUtility.m */; };
+		A0E894241B60A52200559038 /* MSEventRecurrence.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E8941E1B60A52200559038 /* MSEventRecurrence.m */; };
+		A0E894291B60D9BC00559038 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0E894281B60D9BC00559038 /* EventKit.framework */; };
+		A0E8942D1B61F76D00559038 /* sample.ics in Resources */ = {isa = PBXBuildFile; fileRef = A0E8942C1B61F76D00559038 /* sample.ics */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0E894031B60A44800559038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0E893DE1B60A44800559038 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0E893E51B60A44800559038;
+			remoteInfo = IcsParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0E893E61B60A44800559038 /* IcsParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IcsParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0E893EA1B60A44800559038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0E893EB1B60A44800559038 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0E893ED1B60A44800559038 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0E893EE1B60A44800559038 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0E893F11B60A44800559038 /* IcsParser.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IcsParser.xcdatamodel; sourceTree = "<group>"; };
+		A0E893F31B60A44800559038 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A0E893F41B60A44800559038 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A0E893F71B60A44800559038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0E893F91B60A44800559038 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A0E893FC1B60A44800559038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A0E894021B60A44800559038 /* IcsParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IcsParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0E894071B60A44800559038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0E894081B60A44800559038 /* IcsParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IcsParserTests.m; sourceTree = "<group>"; };
+		A0E894151B60A52200559038 /* MSCalendarAlarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCalendarAlarm.h; sourceTree = "<group>"; };
+		A0E894161B60A52200559038 /* MSCalendarAlarm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCalendarAlarm.m; sourceTree = "<group>"; };
+		A0E894171B60A52200559038 /* MSCalendarEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCalendarEvent.h; sourceTree = "<group>"; };
+		A0E894181B60A52200559038 /* MSCalendarEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCalendarEvent.m; sourceTree = "<group>"; };
+		A0E894191B60A52200559038 /* MSCalendarICSParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCalendarICSParser.h; sourceTree = "<group>"; };
+		A0E8941A1B60A52200559038 /* MSCalendarICSParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCalendarICSParser.m; sourceTree = "<group>"; };
+		A0E8941B1B60A52200559038 /* MSCalendarUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCalendarUtility.h; sourceTree = "<group>"; };
+		A0E8941C1B60A52200559038 /* MSCalendarUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCalendarUtility.m; sourceTree = "<group>"; };
+		A0E8941D1B60A52200559038 /* MSEventRecurrence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSEventRecurrence.h; sourceTree = "<group>"; };
+		A0E8941E1B60A52200559038 /* MSEventRecurrence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSEventRecurrence.m; sourceTree = "<group>"; };
+		A0E894281B60D9BC00559038 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		A0E8942A1B61EFE100559038 /* MSProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSProtocol.h; sourceTree = "<group>"; };
+		A0E8942C1B61F76D00559038 /* sample.ics */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample.ics; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0E893E31B60A44800559038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E894291B60D9BC00559038 /* EventKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0E893FF1B60A44800559038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0E893DD1B60A44800559038 = {
+			isa = PBXGroup;
+			children = (
+				A0E893E81B60A44800559038 /* IcsParser */,
+				A0E8942B1B61F74B00559038 /* Resource */,
+				A0E894271B60D98500559038 /* Framework */,
+				A0E894051B60A44800559038 /* IcsParserTests */,
+				A0E893E71B60A44800559038 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0E893E71B60A44800559038 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0E893E61B60A44800559038 /* IcsParser.app */,
+				A0E894021B60A44800559038 /* IcsParserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0E893E81B60A44800559038 /* IcsParser */ = {
+			isa = PBXGroup;
+			children = (
+				A0E893ED1B60A44800559038 /* AppDelegate.h */,
+				A0E893EE1B60A44800559038 /* AppDelegate.m */,
+				A0E893F31B60A44800559038 /* ViewController.h */,
+				A0E893F41B60A44800559038 /* ViewController.m */,
+				A0E894121B60A52200559038 /* Parser */,
+				A0E893F61B60A44800559038 /* Main.storyboard */,
+				A0E893F91B60A44800559038 /* Images.xcassets */,
+				A0E893FB1B60A44800559038 /* LaunchScreen.xib */,
+				A0E893F01B60A44800559038 /* IcsParser.xcdatamodeld */,
+				A0E893E91B60A44800559038 /* Supporting Files */,
+			);
+			path = IcsParser;
+			sourceTree = "<group>";
+		};
+		A0E893E91B60A44800559038 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0E893EA1B60A44800559038 /* Info.plist */,
+				A0E893EB1B60A44800559038 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0E894051B60A44800559038 /* IcsParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0E894081B60A44800559038 /* IcsParserTests.m */,
+				A0E894061B60A44800559038 /* Supporting Files */,
+			);
+			path = IcsParserTests;
+			sourceTree = "<group>";
+		};
+		A0E894061B60A44800559038 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0E894071B60A44800559038 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0E894121B60A52200559038 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				A0E894191B60A52200559038 /* MSCalendarICSParser.h */,
+				A0E8941A1B60A52200559038 /* MSCalendarICSParser.m */,
+				A0E894171B60A52200559038 /* MSCalendarEvent.h */,
+				A0E894181B60A52200559038 /* MSCalendarEvent.m */,
+				A0E8941D1B60A52200559038 /* MSEventRecurrence.h */,
+				A0E8941E1B60A52200559038 /* MSEventRecurrence.m */,
+				A0E894151B60A52200559038 /* MSCalendarAlarm.h */,
+				A0E894161B60A52200559038 /* MSCalendarAlarm.m */,
+				A0E8941B1B60A52200559038 /* MSCalendarUtility.h */,
+				A0E8941C1B60A52200559038 /* MSCalendarUtility.m */,
+				A0E8942A1B61EFE100559038 /* MSProtocol.h */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		A0E894271B60D98500559038 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				A0E894281B60D9BC00559038 /* EventKit.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		A0E8942B1B61F74B00559038 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A0E8942C1B61F76D00559038 /* sample.ics */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0E893E51B60A44800559038 /* IcsParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0E8940C1B60A44800559038 /* Build configuration list for PBXNativeTarget "IcsParser" */;
+			buildPhases = (
+				A0E893E21B60A44800559038 /* Sources */,
+				A0E893E31B60A44800559038 /* Frameworks */,
+				A0E893E41B60A44800559038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IcsParser;
+			productName = IcsParser;
+			productReference = A0E893E61B60A44800559038 /* IcsParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0E894011B60A44800559038 /* IcsParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0E8940F1B60A44800559038 /* Build configuration list for PBXNativeTarget "IcsParserTests" */;
+			buildPhases = (
+				A0E893FE1B60A44800559038 /* Sources */,
+				A0E893FF1B60A44800559038 /* Frameworks */,
+				A0E894001B60A44800559038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0E894041B60A44800559038 /* PBXTargetDependency */,
+			);
+			name = IcsParserTests;
+			productName = IcsParserTests;
+			productReference = A0E894021B60A44800559038 /* IcsParserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0E893DE1B60A44800559038 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Shuvo;
+				TargetAttributes = {
+					A0E893E51B60A44800559038 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					A0E894011B60A44800559038 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = A0E893E51B60A44800559038;
+					};
+				};
+			};
+			buildConfigurationList = A0E893E11B60A44800559038 /* Build configuration list for PBXProject "IcsParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0E893DD1B60A44800559038;
+			productRefGroup = A0E893E71B60A44800559038 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0E893E51B60A44800559038 /* IcsParser */,
+				A0E894011B60A44800559038 /* IcsParserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0E893E41B60A44800559038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E893F81B60A44800559038 /* Main.storyboard in Resources */,
+				A0E8942D1B61F76D00559038 /* sample.ics in Resources */,
+				A0E893FD1B60A44800559038 /* LaunchScreen.xib in Resources */,
+				A0E893FA1B60A44800559038 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0E894001B60A44800559038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0E893E21B60A44800559038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E894201B60A52200559038 /* MSCalendarAlarm.m in Sources */,
+				A0E894231B60A52200559038 /* MSCalendarUtility.m in Sources */,
+				A0E893EF1B60A44800559038 /* AppDelegate.m in Sources */,
+				A0E893EC1B60A44800559038 /* main.m in Sources */,
+				A0E894211B60A52200559038 /* MSCalendarEvent.m in Sources */,
+				A0E893F51B60A44800559038 /* ViewController.m in Sources */,
+				A0E894221B60A52200559038 /* MSCalendarICSParser.m in Sources */,
+				A0E894241B60A52200559038 /* MSEventRecurrence.m in Sources */,
+				A0E893F21B60A44800559038 /* IcsParser.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0E893FE1B60A44800559038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E894091B60A44800559038 /* IcsParserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0E894041B60A44800559038 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0E893E51B60A44800559038 /* IcsParser */;
+			targetProxy = A0E894031B60A44800559038 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0E893F61B60A44800559038 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0E893F71B60A44800559038 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0E893FB1B60A44800559038 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0E893FC1B60A44800559038 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0E8940A1B60A44800559038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0E8940B1B60A44800559038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0E8940D1B60A44800559038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IcsParser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0E8940E1B60A44800559038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IcsParser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A0E894101B60A44800559038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IcsParserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IcsParser.app/IcsParser";
+			};
+			name = Debug;
+		};
+		A0E894111B60A44800559038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IcsParserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IcsParser.app/IcsParser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0E893E11B60A44800559038 /* Build configuration list for PBXProject "IcsParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0E8940A1B60A44800559038 /* Debug */,
+				A0E8940B1B60A44800559038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0E8940C1B60A44800559038 /* Build configuration list for PBXNativeTarget "IcsParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0E8940D1B60A44800559038 /* Debug */,
+				A0E8940E1B60A44800559038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0E8940F1B60A44800559038 /* Build configuration list for PBXNativeTarget "IcsParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0E894101B60A44800559038 /* Debug */,
+				A0E894111B60A44800559038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A0E893F01B60A44800559038 /* IcsParser.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A0E893F11B60A44800559038 /* IcsParser.xcdatamodel */,
+			);
+			currentVersion = A0E893F11B60A44800559038 /* IcsParser.xcdatamodel */;
+			path = IcsParser.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A0E893DE1B60A44800559038 /* Project object */;
+}
